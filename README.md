@@ -23,6 +23,11 @@ Python-based tools for evaluating AI systems and benchmarking Large Language Mod
 - JSON
 - Data Analysis
 
+## Run
+```bash
+python evaluate.py
+```
+
 ## Author
 
 Dr. Mustafa Simsek
