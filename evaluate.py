@@ -1,3 +1,8 @@
+"""
+AI Evaluation Toolkit
+Author: Dr. Mustafa Simsek
+"""
+
 questions = [
     {"question": "What is 2 + 2?", "answer": "4"},
     {"question": "Capital of Texas?", "answer": "Austin"},
@@ -12,6 +17,6 @@ def evaluate(model_answers):
 
     return score
 
-sample_answers = ["4", "Austin"]
-
-print("Score:", evaluate(sample_answers))
+if __name__ == "__main__":
+    sample_answers = ["4", "Austin"]
+    print("Score:", evaluate(sample_answers))
